@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout tools:context=".buoi4.Lab4Activity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintVertical_bias="0.087"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:minHeight="48dp"
+        android:inputType="textPersonName"
+        android:hint="Name" android:ems="10" android:id="@+id/demo41Txt1"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintVertical_bias="0.19" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.497" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent" android:minHeight="48dp" android:inputType="textPersonName" android:hint="price" android:ems="10" android:id="@+id/demo41Txt2"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintVertical_bias="0.285" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.497" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent" android:minHeight="48dp" android:inputType="textPersonName" android:hint="des" android:ems="10" android:id="@+id/demo41Txt3"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintVertical_bias="0.061" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.315" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent" android:id="@+id/demo41Btn1" app:layout_constraintTop_toBottomOf="@+id/demo41Txt3" android:text="Insert"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintVertical_bias="0.061" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.777" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent" android:id="@+id/demo41Btn2" app:layout_constraintTop_toBottomOf="@+id/demo41Txt3" android:text="GetData"/>
+
+    <TextView android:layout_height="215dp"
+        android:layout_width="271dp"
+        app:layout_constraintVertical_bias="0.328"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/demo41TvKQ"
+        app:layout_constraintTop_toBottomOf="@+id/demo41Btn1"
+        android:text="TextView" android:textSize="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
